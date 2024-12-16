@@ -1,0 +1,89 @@
+.box3
+{
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+    background : linear-gradient(lightgreen,yellow);
+    color: rgb(141, 25, 4);
+    animation-name: two_amin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    
+}
+.box3
+{
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+    background : linear-gradient(lightgreen,yellow);
+    color: rgb(141, 25, 4);
+    animation-name: two_amin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes two_amin {
+
+    from{
+            transform: translate(10px,10px)
+            rotate(45deg);
+            
+    }
+    to{
+             transform: translate(1000px,500px)
+             rotate(360deg);
+    }
+    
+}
+
+@keyframes tran_amin {
+
+    from{
+            transform: translate(100px,100px);
+            
+    }
+    to{
+             transform: translate(500px,500px);
+    }
+    
+}
+
+@keyframes rotate_amin {
+
+    from{
+            transform: rotate(45deg);
+            
+    }
+    to{
+             transform: rotate(360deg);
+    }
+    
+}
+
+@keyframes skew_amin {
+
+    from{
+            transform: skew(20deg);
+            
+    }
+    to{
+             transform:skew(360deg);
+    }
+    
+}
+
+@keyframes scale_amin {
+
+    from{
+            transform: scale(1.2);
+            
+    }
+    to{
+             transform: scale(3);
+    }
+    
+}
